@@ -1,0 +1,46 @@
+:root {
+    --cor0: #0F6B29;
+    --cor1: #69EE8E;
+    --cor2: #20EB59;
+    --cor3: #2F6B40;
+    --cor4: #1AB846;
+    --cor5: #063d1e;
+    --fonte0: Arial, Heletica, sans-seif;
+    --fonte1: 'Bebas Neue' cursive;
+    --fonte2: 'Android', sans-serif;
+
+}
+
+body {
+    font-family: var(--fonte0);
+    color: var(--cor0);
+    background-color: var(--cor1);
+}
+
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+p {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+}
+
+div.video {
+    position: relative;
+    background-color: var(--cor4);
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+
+div.video>iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
